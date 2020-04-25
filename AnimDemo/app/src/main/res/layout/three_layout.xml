@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <Button
+        android:id="@+id/button_o"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <RelativeLayout
+        android:id="@+id/ll_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageviewoneo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@mipmap/ic_launcher">
+
+    </ImageView>
+        <ImageView
+            android:id="@+id/imageviewonet"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/income">
+
+        </ImageView>
+    </RelativeLayout>
+
+</LinearLayout>
